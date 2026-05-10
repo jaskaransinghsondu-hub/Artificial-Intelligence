@@ -25,6 +25,7 @@ jobs:
         run: |
           git config --global user.name 'Artificial Intelligence'
           git config --global user.email 'ai@internet.com'
-          git add memory.txt
+          git add memory.json
+          git add README.md
           git commit -m "Evolution: Seeking Pure Intelligence" || exit 0
           git push
